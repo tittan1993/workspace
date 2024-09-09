@@ -1,0 +1,21 @@
+@import '../styles';
+
+.sectionPopup{
+  position: relative;
+  overflow: hidden;
+  padding: 0.5rem;
+  flex: 1;
+
+  &__contentBtns{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  &__contentRender{
+    border: solid 1px $btn-primary-hover-bg;
+    min-height: 80vh;
+  }
+}
+
+

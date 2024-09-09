@@ -1,0 +1,9 @@
+{
+  "name": "project-generic",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "project-generic/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project project-generic --web",
+  "targets": {}
+}

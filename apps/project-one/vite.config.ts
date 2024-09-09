@@ -5,7 +5,7 @@ import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/workspace',
+  cacheDir: '../../node_modules/.vite/apps/project-one',
 
   server: {
     port: 4200,
@@ -19,13 +19,8 @@ export default defineConfig({
 
   plugins: [react(), nxViteTsPaths()],
 
-  // Uncomment this if you are using workers.
-  // worker: {
-  //  plugins: [ nxViteTsPaths() ],
-  // },
-
   build: {
-    outDir: '../../dist/apps/workspace',
+    outDir: '../../dist/apps/project-one',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {

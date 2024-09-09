@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+$btn-primary-bg: #007bff;
+$btn-primary-text: #fff;
+$btn-primary-border: #007bff;
+$btn-primary-hover-bg: #0056b3;
+$btn-primary-hover-border: #0056b3;
+$btn-primary-hover-text: #fff;
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  cursor: pointer;
+  background-color: $btn-primary-bg;
+  color: $btn-primary-text;
+  border-color: $btn-primary-border;
+
+  &:hover {
+    background-color: $btn-primary-hover-bg;
+    border-color: $btn-primary-hover-border;
+    color: $btn-primary-hover-text;
+  }
+
+  &:focus, &:active {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba($btn-primary-bg, 0.5);
+  }
+}
